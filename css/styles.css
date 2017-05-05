@@ -6,34 +6,42 @@
 }
 body, h1{
   margin-left: 20%;
+  margin-bottom: 20px;
 }
 
-.estruc-inicial, .punto1{
+.estruc-inicial, .punto1, .punto2{
   border: 1px solid black;
   width: 800px;
   overflow: auto;
 }
 
-.estruc-inicial div, .punto1 div{
+.estruc-inicial div, .punto1 div, .punto2 div{
   width: 200px;
   height: 150px;
 }
 
 .estruc-inicial div:first-child,
-.punto1 div:first-child{
+.punto1 div:first-child,
+.punto2 div:first-child{
   background-color: #FFFF00;
 }
 
 .estruc-inicial div:nth-child(2),
-.punto1 div:nth-child(2){
+.punto1 div:nth-child(2),
+.punto2 div:nth-child(2){
   background-color: #0000BA;
 }
 
 .estruc-inicial div:nth-child(3),
-.punto1 div:nth-child(3){
+.punto1 div:nth-child(3),
+.punto2 div:nth-child(3){
   background-color: #DC0000;
 }
 
 .punto1 div{
   float: left;
+}
+
+.punto2 div{
+  float:right;
 }
