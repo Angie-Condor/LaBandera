@@ -8,25 +8,32 @@ body, h1{
   margin-left: 20%;
 }
 
-.estruc-inicial{
+.estruc-inicial, .punto1{
   border: 1px solid black;
   width: 800px;
   overflow: auto;
 }
 
-.estruc-inicial div{
+.estruc-inicial div, .punto1 div{
   width: 200px;
-  height: 180px;
+  height: 150px;
 }
 
-.estruc-inicial div:first-child{
-  background-color: yellow;
+.estruc-inicial div:first-child,
+.punto1 div:first-child{
+  background-color: #FFFF00;
 }
 
-.estruc-inicial div:nth-child(2){
-  background-color: blue;
+.estruc-inicial div:nth-child(2),
+.punto1 div:nth-child(2){
+  background-color: #0000BA;
 }
 
-.estruc-inicial div:nth-child(3){
-  background-color: red;
+.estruc-inicial div:nth-child(3),
+.punto1 div:nth-child(3){
+  background-color: #DC0000;
+}
+
+.punto1 div{
+  float: left;
 }
